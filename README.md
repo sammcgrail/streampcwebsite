@@ -2,6 +2,6 @@
 
 ts boilerplate
 
-npm install
-yarn build
-yarn firebase deploy
+# npm install
+# yarn build
+# yarn firebase deploy
