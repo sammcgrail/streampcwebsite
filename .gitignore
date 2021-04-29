@@ -2,12 +2,13 @@ node_modules/
 .cache/
 dist/
 public/
-.firebase/
-firebase/
 package-lock.json
+
+.firebase/
 .firebase/hosting.cHVibGlj.cache
 .firebase/*
 .firebase/hosting.cHVibGlj.cache
-firebase/hosting.*.*
 .firebase
 firebase/hosting.cHVibGlj.cache
+firebase/
+firebase/hosting.*.*
