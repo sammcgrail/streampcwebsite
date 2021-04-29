@@ -9,3 +9,4 @@ package-lock.json
 .firebase/*
 .firebase/hosting.cHVibGlj.cache
 firebase/hosting.*.*
+.firebase
