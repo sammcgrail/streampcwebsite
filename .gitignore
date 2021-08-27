@@ -3,5 +3,5 @@ node_modules/
 dist/
 public/
 package-lock.json
-
+yarn.lock
 .firebase/
