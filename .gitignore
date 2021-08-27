@@ -5,3 +5,4 @@ public/
 package-lock.json
 yarn.lock
 .firebase/
+yarn.lock
