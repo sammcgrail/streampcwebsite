@@ -1,40 +1,106 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <link rel="icon" href="favicon.ico" />
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Sam McGrail - Sandbox Website</title>
-    <style media="screen">
-      body { background: #ECEFF1; color: rgba(0,0,0,0.87); font-family: Roboto, Helvetica, Arial, sans-serif; margin: 0; padding: 0; }
-      #message { background: white; max-width: 360px; margin: 100px auto 16px; padding: 32px 24px 16px; border-radius: 3px; }
-      #message h3 { color: #888; font-weight: normal; font-size: 16px; margin: 16px 0 12px; }
-      #message h2 { color: #ca7ff5; font-weight: bold; font-size: 16px; margin: 0 0 8px; }
-      #message h1 { font-size: 22px; font-weight: 300; color: rgba(0,0,0,0.6); margin: 0 0 16px;}
-      #message p { line-height: 140%; margin: 16px 0 24px; font-size: 14px; }
-      #message a { display: block; text-align: center; background: #039be5; text-transform: uppercase; text-decoration: none; color: white; padding: 16px; border-radius: 4px; }
-      #message, #message a { box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24); }
-      #load { color: rgba(0,0,0,0.4); text-align: center; font-size: 13px; }
-      @media (max-width: 600px) {
-        body, #message { margin-top: 0; background: white; box-shadow: none; }
-        body { border-top: 16px solid #ca7ff5; }
-      }
-    </style>
-  </head>
-  <body>
-    <div id="message">
-      <h2>706C73206A6F62</h2>
-      <h1>Sam McGrail</h1>
-      <p></p>
-      <h3>contact: sammcgrail { at } gmail.com</h3>
-      <br>
-      <h2>Looking... </h2>
-      <h3> <a href="SamMcGrailResume-09-2021.pdf"><i class="fa fa-file-pdf-o fa-2x"></i></a> </h3>
-      <p></p>
-    </div>
-    <script src="main.ts"></script>
-  </body>
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, user-scalable=no, maximum-scale=1.0">
+  <link rel="stylesheet" href="../stylesheets/normalize.css">
+  <meta charset='utf-8'>
+  <meta http-equiv="X-UA-Compatible" content="chrome=1">
+  <meta name="description" content="Sam McGrail">
+  <link rel="stylesheet" type="text/css" media="screen" href="../stylesheets/stylesheet.css">
+  <link type="text/css" rel="stylesheet" href="../assets/css/style.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+  <title>Sam McGrail</title>
+</head>
+
+<body>
+  <div>
+    <ul class="piano">
+      <li class="key">
+        <span class="white-key" data-key="16" data-note="1C"></span>
+        <span class="black-key" data-key="81" data-note="1Cs"></span>
+      </li>
+      <li class="key">
+        <span class="white-key" data-key="65" data-note="1D"></span>
+        <span class="black-key" data-key="87" data-note="1Ds"></span>
+      </li>
+      <li class="key">
+        <span class="white-key" data-key="83" data-note="1E"></span>
+      </li>
+      <li class="key">
+        <span class="white-key" data-key="68" data-note="1F"></span>
+        <span class="black-key" data-key="82" data-note="1Fs"></span>
+      </li>
+      <li class="key">
+        <span class="white-key" data-key="70" data-note="1G"></span>
+        <span class="black-key" data-key="84" data-note="1Gs"></span>
+      </li>
+      <li class="key">
+        <span class="white-key" data-key="71" data-note="2A"></span>
+        <span class="black-key" data-key="89" data-note="2As"></span>
+      </li>
+      <li class="key">
+        <span class="white-key" data-key="72" data-note="2B"></span>
+      </li>
+      <li class="key">
+        <span class="white-key" data-key="74" data-note="2C"></span>
+        <span class="black-key" data-key="73" data-note="2Cs"></span>
+      </li>
+      <li class="key">
+        <span class="white-key" data-key="75" data-note="2D"></span>
+        <span class="black-key" data-key="79" data-note="2Ds"></span>
+      </li>
+      <li class="key">
+        <span class="white-key" data-key="76" data-note="2E"></span>
+      </li>
+      <li class="key">
+        <span class="white-key" data-key="186" data-note="2F"></span>
+        <span class="black-key" data-key="219" data-note="2Fs"></span>
+      </li>
+      <li class="key">
+        <span class="white-key" data-key="222" data-note="2G"></span>
+        <span class="black-key" data-key="221" data-note="2Gs"></span>
+      </li>
+      <li class="key">
+        <span class="white-key" data-key="13" data-note="3A"></span>
+        <span class="black-key" data-key="220" data-note="3As"></span>
+      </li>
+      <li class="key">
+        <span class="white-key" data-key="37" data-note="3B"></span>
+      </li>
+    </ul>
+  </div>
+  <div id="header_wrap" class="outer">
+    <header class="inner">
+      <h1 id="project_title">Sam McGrail</h1>
+      <h2 id="project_tagline">Piano and Programming. </h2>
+    </header>
+  </div>
+  <div id="main_content_wrap" class="outer">
+    <section id="main_content" class="inner">
+      <h4>I love keyboards.</h4>
+      <h5>Play along with the <a href="https://en.wikipedia.org/wiki/Touch_typing#Home_row" class="tooltip">home
+          row<span class="tooltiptext">Use ASDFGHJKL</span></a></h5>
+      <h5>Contact me:</h5><br>
+      <a href="mailto:sammcgrail@gmail.com"><i class="fa fa-paper-plane fa-2x"></i></a> &nbsp;&nbsp;
+      <a href="https://github.com/sammcgrail"><i class="fa fa-github fa-2x"></i></a> &nbsp;&nbsp;
+      <a href="./SamMcGrailResume-09-2021.pdf"><i class="fa fa-file-pdf-o fa-2x"></i></a> &nbsp;&nbsp;
+  </div>
+
+  <script type="text/javascript" src="assets/js/scripts.min.js"></script>
+  <script>
+    (function (i, s, o, g, r, a, m) {
+      i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+        (i[r].q = i[r].q || []).push(arguments)
+      }, i[r].l = 1 * new Date(); a = s.createElement(o),
+        m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+    ga('create', 'UA-58770006-1', 'auto');
+    ga('send', 'pageview');
+  </script>
+  <script> console.log("end")</script>
+  <script> console.log("end")</script>
+</body>
+
 </html>
-
-
