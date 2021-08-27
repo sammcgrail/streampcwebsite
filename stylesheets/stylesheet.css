@@ -412,7 +412,6 @@ hr {
   height: 1px;
   margin-bottom: 5px;
   border: none;
-  background: url('../images/bg_hr.png') repeat-x center;
 }
 
 table {
@@ -422,7 +421,7 @@ table {
  }
 
 th {
-  font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   padding: 10px;
   background: #373737;
   color: #fff;
@@ -482,15 +481,6 @@ Full-Width Styles
   text-shadow: #111 0px 0px 10px;
 }
 
-#downloads {
-  position: absolute;
-  width: 210px;
-  z-index: 10;
-  bottom: -40px;
-  right: 0;
-  height: 70px;
-  background: url('../images/icon_download.png') no-repeat 0% 90%;
-}
 
 
 #main_content_wrap {
