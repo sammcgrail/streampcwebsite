@@ -448,6 +448,21 @@ Full-Width Styles
   margin: 0 auto;
 }
 
+.fa-paper-plane:hover{
+   color:purple !important;
+}
+
+.fa-github:hover{
+   color:purple !important;
+}
+
+.fa-file-pdf-o:hover{
+   color:purple !important;
+}
+
+.fa-flask:hover{
+   color:purple !important;
+}
 #header_wrap {
   background: #212121;
   background: -moz-linear-gradient(top, #373737, #212121);
