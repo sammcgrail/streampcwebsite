@@ -12,6 +12,28 @@ The task should take about 30 mins.
 We are interested in your thought process during the exercise so be prepared to provide some narration and also answer questions on-the-fly.
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 DateTime and associated formatting?
 
 consider set interval ... but
