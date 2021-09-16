@@ -15,6 +15,10 @@ We are interested in your thought process during the exercise so be prepared to 
 
 
 
+provide examples of how to do problem with TDD
+
+
+
 
 
 

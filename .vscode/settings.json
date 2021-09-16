@@ -19,5 +19,7 @@
     "editor.wrappingIndent": "none",
     "files.exclude": {
       "node_modules/": true
-    }
+    },
+    "editor.inlineSuggest.enabled": false,
+    "editor.quickSuggestionsDelay": 1000
   }
