@@ -449,20 +449,21 @@ Full-Width Styles
 }
 
 .fa-paper-plane:hover{
-   color:purple;
+   color:purple !important;
 }
 
 .fa-github:hover{
-   color:purple;
+   color:purple !important;
 }
 
 .fa-file-pdf-o:hover{
-   color:purple;
+   color:purple !important;
 }
 
 .fa-flask:hover{
-   color:purple;
+   color:purple !important;
 }
+
 #header_wrap {
   background: #212121;
   background: -moz-linear-gradient(top, #373737, #212121);
