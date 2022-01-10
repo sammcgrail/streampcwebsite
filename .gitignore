@@ -4,3 +4,4 @@ dist/
 public/
 package-lock.json
 .firebase/
+homepage-workspace.code-workspace
