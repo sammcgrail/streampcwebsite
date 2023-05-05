@@ -1,5 +1,3 @@
-import * as THREE from "three";
-
 THREE.ArcCurve;
 
 console.log(THREE.ArcCurve);
