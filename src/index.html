@@ -1,94 +1,129 @@
 <!DOCTYPE html>
 <html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="viewport"
+      content="width=device-width, user-scalable=no, maximum-scale=1.0"
+    />
+    <link rel="stylesheet" href="./normalize.css" />
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
+    <meta name="description" content="Sam McGrail" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      media="screen"
+      href="./stylesheet.css"
+    />
+    <link type="text/css" rel="stylesheet" href="./assets/css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css"
+    />
+    <script
+      type="text/javascript"
+      src="./assets/js/scripts.min.js"
+      defer
+    ></script>
+    <script type="text/javascript" src="./assets/js/howler.js" defer></script>
+    <title>Sam McGrail</title>
+  </head>
 
-<head>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="viewport" content="width=device-width, user-scalable=no, maximum-scale=1.0">
-  <link rel="stylesheet" href="./normalize.css">
-  <meta charset='utf-8'>
-  <meta http-equiv="X-UA-Compatible" content="chrome=1">
-  <meta name="description" content="Sam McGrail">
-  <link rel="stylesheet" type="text/css" media="screen" href="./stylesheet.css">
-  <link type="text/css" rel="stylesheet" href="./assets/css/style.css">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-  <script type="text/javascript" src="./assets/js/scripts.min.js" defer></script>
-  <script type="text/javascript" src="./assets/js/howler.js" defer></script>
-  <title>Sam McGrail</title>
-</head>
+  <body>
+    <div>
+      <ul class="piano">
+        <li class="key">
+          <span class="white-key" data-key="16" data-note="1C"></span>
+          <span class="black-key" data-key="81" data-note="1Cs"></span>
+        </li>
+        <li class="key">
+          <span class="white-key" data-key="65" data-note="1D"></span>
+          <span class="black-key" data-key="87" data-note="1Ds"></span>
+        </li>
+        <li class="key">
+          <span class="white-key" data-key="83" data-note="1E"></span>
+        </li>
+        <li class="key">
+          <span class="white-key" data-key="68" data-note="1F"></span>
+          <span class="black-key" data-key="82" data-note="1Fs"></span>
+        </li>
+        <li class="key">
+          <span class="white-key" data-key="70" data-note="1G"></span>
+          <span class="black-key" data-key="84" data-note="1Gs"></span>
+        </li>
+        <li class="key">
+          <span class="white-key" data-key="71" data-note="2A"></span>
+          <span class="black-key" data-key="89" data-note="2As"></span>
+        </li>
+        <li class="key">
+          <span class="white-key" data-key="72" data-note="2B"></span>
+        </li>
+        <li class="key">
+          <span class="white-key" data-key="74" data-note="2C"></span>
+          <span class="black-key" data-key="73" data-note="2Cs"></span>
+        </li>
+        <li class="key">
+          <span class="white-key" data-key="75" data-note="2D"></span>
+          <span class="black-key" data-key="79" data-note="2Ds"></span>
+        </li>
+        <li class="key">
+          <span class="white-key" data-key="76" data-note="2E"></span>
+        </li>
+        <li class="key">
+          <span class="white-key" data-key="186" data-note="2F"></span>
+          <span class="black-key" data-key="219" data-note="2Fs"></span>
+        </li>
+        <li class="key">
+          <span class="white-key" data-key="222" data-note="2G"></span>
+          <span class="black-key" data-key="221" data-note="2Gs"></span>
+        </li>
+        <li class="key">
+          <span class="white-key" data-key="13" data-note="3A"></span>
+          <span class="black-key" data-key="220" data-note="3As"></span>
+        </li>
+        <li class="key">
+          <span class="white-key" data-key="37" data-note="3B"></span>
+        </li>
+      </ul>
+    </div>
+    <div id="header_wrap" class="outer">
+      <header class="inner">
+        <h1 id="project_title">Sam McGrail</h1>
+        <h2 id="project_tagline">Programming and Piano.</h2>
 
-<body>
-  <div>
-    <ul class="piano">
-      <li class="key">
-        <span class="white-key" data-key="16" data-note="1C"></span>
-        <span class="black-key" data-key="81" data-note="1Cs"></span>
-      </li>
-      <li class="key">
-        <span class="white-key" data-key="65" data-note="1D"></span>
-        <span class="black-key" data-key="87" data-note="1Ds"></span>
-      </li>
-      <li class="key">
-        <span class="white-key" data-key="83" data-note="1E"></span>
-      </li>
-      <li class="key">
-        <span class="white-key" data-key="68" data-note="1F"></span>
-        <span class="black-key" data-key="82" data-note="1Fs"></span>
-      </li>
-      <li class="key">
-        <span class="white-key" data-key="70" data-note="1G"></span>
-        <span class="black-key" data-key="84" data-note="1Gs"></span>
-      </li>
-      <li class="key">
-        <span class="white-key" data-key="71" data-note="2A"></span>
-        <span class="black-key" data-key="89" data-note="2As"></span>
-      </li>
-      <li class="key">
-        <span class="white-key" data-key="72" data-note="2B"></span>
-      </li>
-      <li class="key">
-        <span class="white-key" data-key="74" data-note="2C"></span>
-        <span class="black-key" data-key="73" data-note="2Cs"></span>
-      </li>
-      <li class="key">
-        <span class="white-key" data-key="75" data-note="2D"></span>
-        <span class="black-key" data-key="79" data-note="2Ds"></span>
-      </li>
-      <li class="key">
-        <span class="white-key" data-key="76" data-note="2E"></span>
-      </li>
-      <li class="key">
-        <span class="white-key" data-key="186" data-note="2F"></span>
-        <span class="black-key" data-key="219" data-note="2Fs"></span>
-      </li>
-      <li class="key">
-        <span class="white-key" data-key="222" data-note="2G"></span>
-        <span class="black-key" data-key="221" data-note="2Gs"></span>
-      </li>
-      <li class="key">
-        <span class="white-key" data-key="13" data-note="3A"></span>
-        <span class="black-key" data-key="220" data-note="3As"></span>
-      </li>
-      <li class="key">
-        <span class="white-key" data-key="37" data-note="3B"></span>
-      </li>
-    </ul>
-  </div>
-  <div id="header_wrap" class="outer">
-    <header class="inner">
-      <h1 id="project_title">Sam McGrail</h1>
-      <h2 id="project_tagline">Programming and Piano.</h2>
+        <h3>
+          I love keyboards. Turn up the volume and tap the piano keys to play
+          along...
+        </h3>
+        <h6>
+          <a
+            href="https://en.wikipedia.org/wiki/Touch_typing#Home_row"
+            class="tooltip"
+            >...or use the home row<span class="tooltiptext"
+              >Use ASDFGHJKL</span
+            ></a
+          >
+        </h6>
 
-      <h3>I love keyboards. Turn up the volume and tap the piano keys to play along...</h3>
-      <h6><a href="https://en.wikipedia.org/wiki/Touch_typing#Home_row" class="tooltip">...or use the home row<span class="tooltiptext">Use ASDFGHJKL</span></a></h6>
+        <h2>Contact me:</h2>
 
-      <h2>Contact me:</h2>
-
-      <a href="mailto:sammcgrail@gmail.com"><i class="fa fa-paper-plane fa-2x"></i></a> &nbsp;&nbsp;
-      <a href="https://github.com/sammcgrail"><i class="fa fa-github fa-2x"></i></a> &nbsp;&nbsp;
-      <a href="./SamMcGrailResume-2023.pdf"><i class="fa fa-file-pdf-o fa-2x"></i></a> &nbsp;&nbsp;
-      <a href="./stopwatch.html"><i class="fa fa-flask fa-2x"></i></a> &nbsp;&nbsp;
-      <a href="./cube.html"><i class="fa fa-cube fa-2x"></i></a> &nbsp;&nbsp;
-    </header>
-  </div>
-</body>
+        <a href="mailto:sammcgrail@gmail.com"
+          ><i class="fa fa-paper-plane fa-2x"></i
+        ></a>
+        &nbsp;&nbsp;
+        <a href="https://github.com/sammcgrail"
+          ><i class="fa fa-github fa-2x"></i
+        ></a>
+        &nbsp;&nbsp;
+        <a href="./SamMcGrailResume-2024.docx"
+          ><i class="fa fa-file-pdf-o fa-2x"></i
+        ></a>
+        &nbsp;&nbsp;
+        <a href="./stopwatch.html"><i class="fa fa-flask fa-2x"></i></a>
+        &nbsp;&nbsp;
+        <a href="./cube.html"><i class="fa fa-cube fa-2x"></i></a> &nbsp;&nbsp;
+      </header>
+    </div>
+  </body>
 </html>
